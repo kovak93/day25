@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+font:400 27px/1.48 Lato, serif;
+color:#171717;
+background-color: #fff;
+}
+
+/* Layout */
+.ba-container{
+	margin-top:130px;
+	margin-bottom:130px;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+	max-width: 1440px;
+	padding:123px 20px;
+}
+p.first-letter::first-letter{
+float:left;
+font-family: Playfair Display;
+color: #171717;
+font-size: 110px; 
+font-weight: 400;
+line-height: 0.8; 
+padding: 0 25px 0 0;
+}
+.ba-editor{
+padding: 10px 10px;
+margin: 0 121px;
+}
+.ba-editor-title{
+font:400 42px/1 Playfair Display, serif;
+color: #171717;
+margin-bottom:39px;
+
+}
+.ba-editor p{
+	margin-bottom: 30px;
+	line-height: 1.7;
+	font-family: Lato;
+	color:  #A2A3A2;
+	font-size: 19.5px;
+	font-weight: 300;
+	text-align: left;
+}
+.ba-editor blockquote{
+font-family: Lato;
+color:  #A2A3A2;
+font-size: 24px;
+font-weight: 300;
+margin:0;
+font-style: italic;
+}
+.ba-blockqouter span{
+	font-size:45px;
+	color:#5F5F5F;
+}
+.ba-button {
+	letter-spacing: 0.25em;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 20px 70px ;
+	margin-top: 39px;
+	display: inline-block;
+	border: 2px solid #eaa258;;
+	text-transform: uppercase;
+	color:#eaa258;
+	text-decoration: none;
+}
+.ba-button a{
+	
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
